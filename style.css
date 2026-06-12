@@ -462,9 +462,11 @@ html {
 section {
     scroll-margin-top: 100px;
 }
+/* FUNDADORES */
+
 .socios {
     padding: 90px 20px;
-    background: #ffffff;
+    background: #f8fafc;
     text-align: center;
 }
 
@@ -473,9 +475,20 @@ section {
     margin-bottom: 40px;
 }
 
-.socios .cards {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    flex-wrap: wrap;
+.socios .card {
+    text-align: left;
+}
+
+.cargo {
+    color: #d95a22;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.socios .card p {
+    margin-bottom: 15px;
+    color: #64748b;
 }
