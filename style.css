@@ -462,3 +462,20 @@ html {
 section {
     scroll-margin-top: 100px;
 }
+.socios {
+    padding: 90px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.socios h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.socios .cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
