@@ -527,3 +527,24 @@ section {
 .sobre .card p {
     color: #334155;
 }
+
+
+.foto-socio {
+    width: 140px;
+    height: 140px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    display: block;
+
+    margin: 0 auto 20px;
+
+    border: 4px solid #d95a22;
+}
+.foto-carla {
+    object-fit: cover;
+    object-position: center 65%;
+    transform: scale(1.2);
+}
