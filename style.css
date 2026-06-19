@@ -238,7 +238,7 @@ body {
 }
 
 .card h3 {
-    font-size: 1.15rem;
+    font-size: 1.05rem;
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
@@ -246,6 +246,7 @@ body {
     text-transform: uppercase;
     width: 100%;
     max-width: 100%;
+    padding: 0;
     padding-left: 0;
     padding-right: 0;
     display: block;
@@ -257,6 +258,11 @@ body {
     text-align: left;
     line-height: 1.7;
     margin-bottom:15px;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    word-spacing: normal;
 }
 
 /* SOBRE */
@@ -271,13 +277,11 @@ body {
 
 .sobre p {
     max-width: 90%;
-    width: 100%;
     margin: 0 auto;
     color: #DBEAFE;
     font-size: 1.15rem;
     line-height: 1.9;
     text-align: justify;
-    padding: 0 20px;
 }
 
 /* DEPOIMENTOS */
@@ -288,6 +292,11 @@ body {
 
 .depoimentos .card p {
     font-style: italic;
+    text-align: left ;
+    display: block ;
+    width: 100%;
+    padding: 0;
+    word-spacing: normal;
 }
 
 .depoimentos .card span {
@@ -560,17 +569,4 @@ section {
     object-fit: cover;
     object-position: center 65%;
     transform: scale(1.2);
-}
-
-
-/* Força TODOS os parágrafos de seções com cards a alinharem à esquerda */
-.servicos .card p,
-.resultados .card p,
-.depoimentos .card p,
-.faq .card p,
-.socios .card p,
-.card p {
-    text-align: left !important;
-    justify-content: flex-start !important;
-    word-break: normal !important;
 }
