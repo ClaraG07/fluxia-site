@@ -77,7 +77,7 @@ body {
 
     text-align: center;
 
-    padding: 120px 20px 40px;
+    padding: 180px 20px 40px;
 }
 
 .tag {
@@ -238,9 +238,17 @@ body {
 }
 
 .card h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
     margin-bottom: 20px;
     text-align: center;
     line-height: 1.4;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
 }
 
 .card p {
